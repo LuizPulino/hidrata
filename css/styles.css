@@ -16,3 +16,6 @@ body{
 main{
     color: var(--pri-clr);
 }
+nav>a{
+    color: var(--pri-clr);
+}
