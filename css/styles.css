@@ -1,0 +1,18 @@
+:root{
+    --bak-clr:#222; /*background color*/
+    --pri-clr:#EEE; /*primary color*/
+    --sec-clr:#AAA; /*secondary color*/
+    
+    --pri-mrg: 1em; /*primary margin*/
+    --sec-mrg: .5em; /*secondary margin*/
+
+    --pri-pad: 1em; /*primary padding*/
+    --sec-pad: .5em; /*secondary padding*/
+
+}
+body{
+    background-color: var(--bak-clr);
+}
+main{
+    color: var(--pri-clr);
+}
