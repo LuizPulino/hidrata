@@ -1,5 +1,5 @@
 import './modules/router.js';
-$("main").load("pages/start.html");
+$("main").load("pages/home.html");
 if('serviceWorker' in navigator) {
     navigator.serviceWorker
         .register('./service-worker.js')

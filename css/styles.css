@@ -19,3 +19,16 @@ main{
 nav>a{
     color: var(--pri-clr);
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    padding: .25em;
+}
+[data-page="water"] img{
+    background: lightskyblue;
+}
+[data-page="urine"] img{
+    background: lightgreen;
+}
