@@ -14,10 +14,10 @@
         navigator.serviceWorker.register('./test-service-worker.js');
         navigator.serviceWorker.ready
             .then(function(registration) {
-                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                $("#log").append("<p>ServiceWorker registration successful with scope: " + registration.scope + "</p>");
             })
             .catch(function(err) {
-                console.log('ServiceWorker registration failed: ', err);
+                $("#log").append("<p>ServiceWorker registration error: " + error + "</p>");
             });
     </script>
 </body>
