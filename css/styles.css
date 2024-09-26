@@ -12,6 +12,7 @@
 }
 body{
     background-color: var(--bak-clr);
+    color: var(--pri-clr);
 }
 main{
     color: var(--pri-clr);
