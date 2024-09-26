@@ -1,0 +1,7 @@
+{
+    "root": "./",
+    "port": 8080,
+    "https": true,
+    "cert": "cert.pem",
+    "key": "key.pem"
+  }
